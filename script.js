@@ -8,12 +8,12 @@ $(document).ready(function(){
         $(this).parent().parent().hide(300);
         $(".ok_message").addClass("active");
     });
-
+/** 
     $(".ok_message").on('click', function() {
         $(this).removeClass("active");
         $(".form").removeClass("active").show();
     });
-
+**/
     // Star rating functionality
     let rating = 0;
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
         highlightStars(num);
         var pageTitle = document.getElementById('pageTitle');
         if (num <= 3) {
-            pageTitle.textContent = "Feedback to us";
+            pageTitle.textContent = "Tell us more";
             $('#ratings').hide();
             $('#feedback').show().addClass('active');
         } else {
