@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Our Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="download-container">
+        <a href="Product Catalogue copy.pdf" download="Product_Catalogue_2024.pdf">Download Product Catalogue</a>
+    </div>
+    
+    <div class="container">
+        <h1 id="pageTitle">Rate Our Service</h1>
+        <div id="ratings" class="star-rating">
+            <span class="star" onmouseover="highlightStars(1)" onmouseout="resetStars()" onclick="rate(1)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(2)" onmouseout="resetStars()" onclick="rate(2)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(3)" onmouseout="resetStars()" onclick="rate(3)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(4)" onmouseout="resetStars()" onclick="rate(4)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(5)" onmouseout="resetStars()" onclick="rate(5)">&#9733;</span>
+        </div>
+    </div>
+
+    <div class="form" id="feedback">
+        <div class="mail"></div>
+        <h1>Mail form</h1>
+        <form action="">
+            <input type="text" placeholder="Your name"/>
+            <input type="text" placeholder="E-mail"/>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <div class="submit">Send</div>
+        </form>
+    </div>
+
+    <div class="ok_message">
+        <span>We'll answer you soon!</span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
